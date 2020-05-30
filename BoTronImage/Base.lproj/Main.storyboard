@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BoTronImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsi-y9-Ef4" customClass="CustomView" customModule="BoTronImage" customModuleProvider="target">
+                                <rect key="frame" x="57" y="78.5" width="300" height="70"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="4h7-kn-soz"/>
+                                    <constraint firstAttribute="width" constant="300" id="fNp-IA-VWw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yuT-eL-m8H" customClass="CustomView" customModule="BoTronImage" customModuleProvider="target">
+                                <rect key="frame" x="57" y="191.5" width="300" height="70"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="23O-ah-Es3"/>
+                                    <constraint firstAttribute="height" constant="70" id="OWh-2v-QKZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAI-9R-Ji3" customClass="CustomView" customModule="BoTronImage" customModuleProvider="target">
+                                <rect key="frame" x="57" y="305" width="300" height="70"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="48g-yw-L2a"/>
+                                    <constraint firstAttribute="height" constant="70" id="zaL-DK-khM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Sr-bD-xPW" customClass="CustomView" customModule="BoTronImage" customModuleProvider="target">
+                                <rect key="frame" x="57" y="418" width="300" height="70"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="6yK-De-INH"/>
+                                    <constraint firstAttribute="height" constant="70" id="wDM-LI-AeA"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="80"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frP-cH-juU">
+                                <rect key="frame" x="57" y="531.5" width="300" height="70"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Vw0-sQ-bcr"/>
+                                    <constraint firstAttribute="height" constant="70" id="eiH-V3-BjE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yuT-eL-m8H" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1/2" id="BP3-3o-RoJ"/>
+                            <constraint firstItem="frP-cH-juU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="5/4" id="IEn-7k-Jxv"/>
+                            <constraint firstItem="2Sr-bD-xPW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="M0I-ql-6Is"/>
+                            <constraint firstItem="frP-cH-juU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OOb-Yo-BkP"/>
+                            <constraint firstItem="wAI-9R-Ji3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YPg-mT-6qq"/>
+                            <constraint firstItem="wAI-9R-Ji3" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="3/4" id="Zr1-hH-dlU"/>
+                            <constraint firstItem="yuT-eL-m8H" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c5Y-Po-Ffk"/>
+                            <constraint firstItem="nsi-y9-Ef4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cTB-pu-TrA"/>
+                            <constraint firstItem="nsi-y9-Ef4" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1/4" id="pBx-Dt-cMd"/>
+                            <constraint firstItem="2Sr-bD-xPW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qZv-44-o8d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="nsi-y9-Ef4" id="SFg-ra-fqB"/>
+                        <outlet property="view2" destination="yuT-eL-m8H" id="XYk-Y0-WHi"/>
+                        <outlet property="view3" destination="wAI-9R-Ji3" id="RvO-yM-iu0"/>
+                        <outlet property="view4" destination="2Sr-bD-xPW" id="q5q-Ck-hoA"/>
+                        <outlet property="view5" destination="frP-cH-juU" id="I3E-zT-jrm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="95"/>
+        </scene>
+    </scenes>
+</document>
